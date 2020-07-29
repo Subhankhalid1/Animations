@@ -1,0 +1,47 @@
+#appContainer{
+    width:60vw;
+    height: 70vh;
+    border: 1px solid red;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #b6e8ff;
+}
+
+body{
+    margin:0;
+}
+
+.cloud{
+    width:120px;
+    /* border:1px solid; */
+    position: absolute;
+    /* margin-left:5px; */
+}
+.myPlayer{
+    height:300px ;
+    width:100px;
+    position:absolute;
+    top:30%;
+    transition: top 1s linear 0s;
+    /* bottom:0px; */
+        /* margin-left: 2%;
+        margin-top: 18%; */
+}
+.Birds{
+    position:absolute;
+    width: 50px;
+    bottom: 75%;
+    left: 0%;
+    
+
+}
+
+
+.myRoad{
+    height:100px ;
+    width:60vw;
+    position:absolute;
+    margin-left: 0%;
+    margin-top: 45%;
+} 
